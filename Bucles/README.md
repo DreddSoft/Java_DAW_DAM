@@ -1,4 +1,4 @@
-# H1 EJERCICIOS DE BUCLES
+# EJERCICIOS DE BUCLES
 > Diferentes ejercicios de programación de bucles en Java, algunos propios de las clases de DAW otros preparados por mí o recogidos de internet. Tenéis los enunciados aquí y diferentes soluciones en el repositorio.
 
 1. Tenemos un móvil con la pantalla bloqueada. Partiendo de un PIN_SECRETO que desconocemos, intentaremos desbloquear la pantalla. Tenemos hasta 5 intentos. En caso de acceder, nos devolverá por consola el mensaje: `login correcto` Si no, `llamando a la policía`.
