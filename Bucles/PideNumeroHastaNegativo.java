@@ -31,6 +31,11 @@ public class PideNumeroHastaNegativo {
         int sumaPares = 0;  //sumatorio de los pares.
         int sumaImpa = 0;   //sumatorio de los impares.
 
+        //Máximos
+        int maxTotal = 0;
+        int maxPar = 0;
+        int maxImpar = 0;
+
 
         //Scanner
         Scanner key = new Scanner(System.in);
@@ -60,16 +65,32 @@ public class PideNumeroHastaNegativo {
             if (numIntro >= 0) {
                 sumaTotal += numIntro;  //Esto es igual que sumaTotal = sumaTotal + numIntro.
                 contTotal++;
+                if (numIntro > maxTotal) {  //Sí...numIntro es mayor que maxTotal
+                    //Haz...
+                    maxTotal = numIntro;    //guardamos el numIntro dentro de maxTotal.
+                }
 
                 //4. Si es par, sumar el número al sumatorio par y aumentar el contador par.
                 if (numIntro % 2 == 0) {    //Si el modulo de dividir el número entre 2 es igual 0 es un número par.
                     sumaPares += numIntro;
                     contPares++;
 
+                    if (numIntro > maxPar) {    //Sí...numIntro es mayor que maxPar
+                        //Haz...
+                        maxPar = numIntro;  //guarda el valor de numIntro dentro de maxPar
+
+                    }
+
+
                 } else { //Cualquier número que su modulo de dividir entre 2 sea diferente de 0 es impar
                     //5. Si es impar, sumar el número al sumatorio impar y aumentar el contador impar.
                     sumaImpa += numIntro;
                     contImpa++;
+                    if (numIntro > maxImpar) {  //Sí...numIntro es mayor que maxImpar
+                        //Haz..
+                        maxImpar = numIntro;
+
+                    }
 
                 }
 
@@ -83,8 +104,9 @@ public class PideNumeroHastaNegativo {
             //6. Mostrar el sumatorio total, el total de números introducidos y la media.
             //Media del total
             double mediaTotal = sumaTotal / contTotal;
-            System.out.println("Se han introducido un total de " + contTotal + " numeros." +
-                    "\nHaciendo una suma total de " + sumaTotal + "." +
+            System.out.println("Se han introducido un total de " + contTotal + " numeros," +
+                    "\nHaciendo una suma total de " + sumaTotal + "," +
+                    "\ncon un número más alto de " + maxTotal +
                     "\ny con una media de " + mediaTotal + ".");
 
             //7. Mostrar el sumatorio de pares, el total de números pares y la media.
@@ -92,6 +114,7 @@ public class PideNumeroHastaNegativo {
             double mediaPares = sumaPares / contPares;
             System.out.println("Se ha introducido un total de " + contPares + " numero pares," +
                     "\n haciendo una suma total de " + sumaPares + "," +
+                    "\ncon un número par más alto de " + maxPar +
                     "\n y con una media de " + mediaPares + ".");
 
             //8. Mostrar el sumatorio de impares, el total de impares y la media.
@@ -99,6 +122,7 @@ public class PideNumeroHastaNegativo {
             double mediaImpares = sumaImpa / contImpa;
             System.out.println("Se ha introducido un totla de " + contImpa + " numeros impares," +
                     "\n haciendo una suma total de " + sumaImpa + "," +
+                    "\ncon un número impar más alto de " + maxImpar +
                     "\n y con una media de " + mediaImpares + ".");
 
         } else {
