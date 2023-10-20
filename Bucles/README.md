@@ -12,3 +12,14 @@
     - El número negativo sólo se utiliza para indicar el final de la instrucción, no debe incluirse en el computo de datos.
 
 4. Realiza un programa que pida letras por teclado hasta qe se introduzca un número u otro caracter. En pantalla deberá mostrar el número de letras introducidas (contador) y las letras concatenadas y separadas por un espacio en blanco.
+
+## NUEVOS EJERCICIOS - 20/Oct/2023
+
+### Ejercicio 1:
+Haz un programa para simular 20 lanzamientos de un dado.
+
+## Ejercicio 2:
+Genera números aleatorios y muéstralos hasta que salga uno que sea múltiplo de 9.
+
+## Ejercicio 3:
+Dados dos números enteros positivos, calcula su producto utilizando solo sumas.
