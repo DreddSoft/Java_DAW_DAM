@@ -23,3 +23,8 @@ Genera números aleatorios y muéstralos hasta que salga uno que sea múltiplo d
 
 ## Ejercicio 3:
 Dados dos números enteros positivos, calcula su producto utilizando solo sumas.
+
+## Ejercicio 4:
+Solicitale al usuario un número entre 0 y 10 (incluidos):
+    - Si el usuario introduce un número que no esté dentro del rango, sigue pidiendoselo hasta que introduzca un número entre 0 y 10.
+    - Una vez obtenido el número dentro del rango, mostrar la tabla de multiplicar de ese número.
