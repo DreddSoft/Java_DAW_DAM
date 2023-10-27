@@ -28,3 +28,20 @@ Dados dos números enteros positivos, calcula su producto utilizando solo sumas.
 Solicitale al usuario un número entre 0 y 10 (incluidos):
     - Si el usuario introduce un número que no esté dentro del rango, sigue pidiendoselo hasta que introduzca un número entre 0 y 10.
     - Una vez obtenido el número dentro del rango, mostrar la tabla de multiplicar de ese número.
+
+## Ejercicio 5:
+Utilizando un bucle for con dos contadores, realiza un programa que dados dos números enteros n1 y n2 que se introducen por teclado y que cumplan que n1<n2,
+vaya aumentando n1 al doble de su valor y disminuyendo n2 a la mitad de su valor
+hasta que n1>n2.
+
+## Ejercicio 6:
+Realiza un programa en el cual se introduzcan notas numéricas correspondientes a las calificaciones de un grupo de alumnos y se presenten en pantalla el número total de alumnos que han sacado muy deficiente (0,1,2), insuficiente (3,4), aprobado (5), bien (6),
+notable (7,8) y sobresaliente (9,10).
+
+## Ejercicio 7: 
+Realiza un programa que calcule la suma de los pares e impares (por separado) comprendidos entre 2 valores n1 y n2.
+    - n1 y n2 se introducen por teclado.
+    - Deben cumplir que n1 < n2.
+    - Deben cumplir que n1 > 0.
+    - Deben cumplir que n2 < n1.
+
