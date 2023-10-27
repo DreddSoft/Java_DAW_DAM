@@ -11,7 +11,7 @@ Un grupo de inteligencia militar desea codificar los mensajes secretos de tal fo
       - Los espacios serán cambiados por el caracter '_'.
       - El resto de caracteres se mantendrán iguales.
   - Descodificar mensaje, que debe cumplir:
-      . Cada letra debe ser reemplazada por la letra anterior del abcedario, teniendo en cuenta que la 'a' será reemplazada por 'z'.
+      - Cada letra debe ser reemplazada por la letra anterior del abcedario, teniendo en cuenta que la 'a' será reemplazada por 'z'.
       - Cada número debe ser reemplazado por el anterior, teniendo en cuenta que '0' será reemplazado por '9'.
       - Los guiones bajos '_' serán reemplazados por espacios en blanco ' '.
       - El resto de caracteres se mantienen iguales.
