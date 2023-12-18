@@ -1,3 +1,1 @@
-# ALGORITMOS DE ORDENACIÓN.
 
-## 
